@@ -1,0 +1,5 @@
+dias = float(input('digite o número de dias: '))
+km = float(input('Digite a distância percorrida; '))
+total = (dias * 60)
+total += (km * 0.15)
+print(f'Preço total: R${total:.2f}')

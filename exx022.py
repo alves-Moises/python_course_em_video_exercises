@@ -6,9 +6,12 @@
 def tirar_espaco(a):
    #codigo aqui
     #nova = '0'
-    print(a)
-    leng = len(a)
-    print(f'Tamanho total:: {leng}')
+    print(a.upper())
+    print(a.lower())
+    space = a.count(' ')
+    leng = len(a) - space
+    print(f'Tamanho total sem espaco:: {leng}')
+    print(f'tamanho totla com espaço: {len(a)}')
     i = 0
     nova = [ ]
     while a[i] != ' ':

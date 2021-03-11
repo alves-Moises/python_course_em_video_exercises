@@ -5,6 +5,5 @@ pygame.init()
 
 pygame.mixer.music.load('mp3.mp3')
 pygame.mixer.music.play(loops=0, start=0.0)
-pygame.event.wait()
-input('Agora você escuta?')
+pygame.event.wait(1, 1)
 

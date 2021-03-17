@@ -27,6 +27,6 @@ def tirar_espaco(a):
 
 #inicio do codigo
 
-nomec = input("Digite seu Nome inteiro:  \n")
+nomec = str(input("Digite seu Nome inteiro:  \n"))
 tirar_espaco(nomec)
 

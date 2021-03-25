@@ -15,10 +15,10 @@ def tirar_espaco(a):
     i = 0
     nova = [ ]
     while a[i] != ' ':
-
-        nova.append(a[i])
-
+        nova.extend(a[i])
         i += 1
+
+
     print(f'nova1: {nova}')
     print(f'Novo tamanho: {len(nova)}')
     while i < leng:

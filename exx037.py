@@ -51,10 +51,11 @@ def octal():
             j = j - 1
         # print(f'Teste: {nova}')
     print(f'\033[1;35mValor em octal: {nova}\033[m')
+
     pergunta()
 def hexdcml():
-    print(1)
-    pergunta()
+    x = int(input('Digite '))
+    print(f'{hex(x)}')
 def pergunta():
     print('\033[1;36mDigite: \033[m')
     print('\033[1:35m1\033[m\033[1;32m para binário\033[m')
@@ -68,7 +69,7 @@ def pergunta():
     elif(resp=='3'):
         hexdcml()
     else:
-        print('Comando inválido')
+        print('Resposta inválido')
         pergunta()
 
 pergunta()

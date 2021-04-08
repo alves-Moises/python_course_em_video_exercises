@@ -1,6 +1,6 @@
 preco = float(input('Digite o valor do produto: '))
 tempo = input('Digite: \n1 para pagamento a visa \n2 para pagamento a prazo \n')
-total = float()
+
 if tempo == '1':
     tipo_pagamento = input('Digite:\n1 para dinheiro\n2 para chegue\n3 para cartão\n')
     if (tipo_pagamento == '1') or (tipo_pagamento == '2'):

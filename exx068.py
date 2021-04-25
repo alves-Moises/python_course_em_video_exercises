@@ -1,5 +1,4 @@
 import random
-from typing import ValuesView
 
 def main():
     win_count = 0

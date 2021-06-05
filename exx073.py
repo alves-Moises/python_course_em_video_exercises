@@ -1,5 +1,14 @@
-numbers = ['zero', 'um', 'dois', 'três', 'quatro', 'cinco', 'seis', 'sete', 'oito', 'nove', 'dez', 'onze', 
-        'doze', 'treze', 'catorze', 'quinze', 'dezesseis', 'dezessete', 'dezoito', 'dezenove', 'vinte']
+positions = ['primeiro', 'segundo', 'terceiro', 'quarto', 'quinto', 'sexto ', 'setimo', 'oitavo', 'nono', 'rdecimo', 'decimo_primeiro', 'decimo_seg', 
+        'decimo_teceiro', 'decimo_quarto', 'decimo_quinto', 'decimo_sexto', 'decimo_sexto', 'decimo_setimo', 'decimo_nono', 'vigesimo']
+i = 0
+while i < 5:
+    print('a)', positions[i])
+    i += 1
+i = 0
+while i > -4:
+    i -= 1
+    print(positions[i])
 
-for item in range(0, len(numbers)):
-    print(numbers[item])
+print('ordem alfabética')
+
+print(positions.index('segundo'))

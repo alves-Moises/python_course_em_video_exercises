@@ -9,6 +9,6 @@ while i > -4:
     i -= 1
     print(positions[i])
 
-print('ordem alfabética')
+print(f'ordem alfabética : {sorted(positions)}')
 
 print(positions.index('segundo'))

@@ -30,7 +30,9 @@ def main():
                 numero = True if resposta == 1 else False
             else:
                 print('Digite uma resposta valida')
+    
+    lista.sort(reverse=True)
     print(f'Foram digitados {len(lista)} valores')
     print(f'O valor 5 foi digitado {lista.count(5)} vezes')
-
+    print(lista)
 main()
